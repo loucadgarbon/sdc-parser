@@ -1,0 +1,18 @@
+# virtualenv
+.venv/
+
+# build / packaging
+*.egg-info/
+build/
+dist/
+__pycache__/
+*.pyc
+
+# test / tool caches
+.pytest_cache/
+
+# manual verification outputs
+out/
+
+# cc-cost session handoff files
+HANDOFF*.md
